@@ -1,0 +1,6 @@
+{
+  "name": "UniChat",
+  "description": "Unified social media dashboard for managing Facebook, Discord, X, Threads, and Instagram with stacked Messenger-style chat heads.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

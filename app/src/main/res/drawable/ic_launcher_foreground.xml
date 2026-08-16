@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Back Stacked Chat Layer (Threads & Discord vibe) -->
+    <path
+        android:pathData="M38,32h34c5,0 9,4 9,9v20c0,5 -4,9 -9,9H45l-9,8v-8h-2c-5,0 -9,-4 -9,-9V41c0,-5 4,-9 9,-9z"
+        android:fillColor="#334155"
+        android:strokeWidth="1.5"
+        android:strokeColor="#64748B" />
+
+    <!-- Secondary Stacked Chat Layer (Messenger Cyan/Purple) -->
+    <path
+        android:pathData="M34,36h38c6,0 11,5 11,11v22c0,6 -5,11 -11,11H44l-11,9v-9h-2c-6,0 -11,-5 -11,-11V47c0,-6 5,-11 11,-11z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="20"
+                android:startY="36"
+                android:endX="85"
+                android:endY="80"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#0284C7" />
+                <item android:offset="0.5" android:color="#4F46E5" />
+                <item android:offset="1.0" android:color="#9333EA" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Foreground Primary Chat Bubble (Vibrant Gradient with Gloss & Tail) -->
+    <path
+        android:pathData="M30,40h38c6.6,0 12,5.4 12,12v22c0,6.6 -5.4,12 -12,12H41l-13,11v-11h-1c-6.6,0 -12,-5.4 -12,-12V52c0,-6.6 5.4,-12 12,-12z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="15"
+                android:startY="40"
+                android:endX="80"
+                android:endY="86"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00D2FF" />
+                <item android:offset="0.45" android:color="#3B82F6" />
+                <item android:offset="0.8" android:color="#8B5CF6" />
+                <item android:offset="1.0" android:color="#EC4899" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Unified "U" Infinity Connection Flow inside the bubble -->
+    <path
+        android:pathData="M34,51v12c0,5.5 4.5,10 10,10s10,-4.5 10,-10V51h-5v12c0,2.8 -2.2,5 -5,5s-5,-2.2 -5,-5V51z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Connected Dynamic Pulse Nodes (Representing Social Networks Uni-Connection) -->
+    <path
+        android:pathData="M59,57m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0"
+        android:fillColor="#FFFFFF" />
+    <path
+        android:pathData="M59,67m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0"
+        android:fillColor="#FFFFFF" />
+    <path
+        android:pathData="M68,62m-3.5,0a3.5,3.5 0,1 1,7 0a3.5,3.5 0,1 1,-7 0"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Floating Top Chat Head Node (Stacked Messenger Bubble Accent) -->
+    <path
+        android:pathData="M78,32m-13,0a13,13 0,1 1,26 0a13,13 0,1 1,-26 0"
+        android:fillColor="#FFFFFF" />
+    <path
+        android:pathData="M78,32m-11,0a11,11 0,1 1,22 0a11,11 0,1 1,-22 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="67"
+                android:startY="21"
+                android:endX="89"
+                android:endY="43"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#6366F1" />
+                <item android:offset="1.0" android:color="#A855F7" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Chat Head Avatar Symbol -->
+    <path
+        android:pathData="M78,28m-3.5,0a3.5,3.5 0,1 1,7 0a3.5,3.5 0,1 1,-7 0"
+        android:fillColor="#FFFFFF" />
+    <path
+        android:pathData="M72,38c0,-3.3 2.7,-6 6,-6s6,2.7 6,6z"
+        android:fillColor="#FFFFFF" />
+    
+    <!-- Active Online Indicator Ring -->
+    <path
+        android:pathData="M87,24m-3.5,0a3.5,3.5 0,1 1,7 0a3.5,3.5 0,1 1,-7 0"
+        android:fillColor="#10B981"
+        android:strokeWidth="1.2"
+        android:strokeColor="#FFFFFF" />
+
+    <!-- Stack Layers Count Indicator Dot -->
+    <path
+        android:pathData="M67,23m-2.5,0a2.5,2.5 0,1 1,5 0a2.5,2.5 0,1 1,-5 0"
+        android:fillColor="#F43F5E"
+        android:strokeWidth="0.8"
+        android:strokeColor="#FFFFFF" />
+</vector>
